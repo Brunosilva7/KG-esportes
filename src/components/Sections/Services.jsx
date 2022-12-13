@@ -59,7 +59,7 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
+                <h4 className="font15 semiBold">Um pouco sobre a KG esportes</h4>
                 <h2 className="font40 extraBold">A Study of Creativity</h2>
                 <p className="font12">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
@@ -67,10 +67,10 @@ export default function Services() {
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="Começar" action={() => alert("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <FullButton title="Fale conosco" action={() => alert("clicked")} border />
                   </div>
                 </ButtonsRow>
               </AddLeft>
@@ -177,7 +177,7 @@ const AddRightInner = styled.div`
   width: 100%;
 `;
 const AddImgWrapp1 = styled.div`
-  width: 48%;
+  width: 85%;
   margin: 0 6% 10px 6%;
   img {
     width: 100%;
@@ -189,7 +189,7 @@ const AddImgWrapp1 = styled.div`
   }
 `;
 const AddImgWrapp2 = styled.div`
-  width: 30%;
+  width: 60%;
   margin: 0 5% 10px 5%;
   img {
     width: 100%;
@@ -201,7 +201,7 @@ const AddImgWrapp2 = styled.div`
   }
 `;
 const AddImgWrapp3 = styled.div`
-  width: 20%;
+  width: 60%;
   margin-left: 40%;
   img {
     width: 100%;
@@ -213,7 +213,7 @@ const AddImgWrapp3 = styled.div`
   }
 `;
 const AddImgWrapp4 = styled.div`
-  width: 30%;
+  width: 70%;
   margin: 0 5%auto;
   img {
     width: 100%;
