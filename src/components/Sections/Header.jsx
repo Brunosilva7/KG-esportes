@@ -14,11 +14,10 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Somos a KG Esportes.</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Academia especializada em Ginástica Artística localizada na cidade de Vinhedo - São Paulo, com foco na preparação de atletas de todas as idades e públicos.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Comece agora" />
+            <FullButton title="Faça parte" />
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -43,6 +42,7 @@ export default function Header() {
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
     </Wrapper>
+
   );
 }
 

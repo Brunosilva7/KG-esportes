@@ -24,7 +24,7 @@ export default function Blog() {
               <BlogBox
                 title="Campeonato paulista!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="Paulista"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -33,7 +33,7 @@ export default function Blog() {
               <BlogBox
                 title="Campeonato sul-americano!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="Sul-americano"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -42,7 +42,7 @@ export default function Blog() {
               <BlogBox
                 title="Campeonato brasileiro!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="Brasileiro"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -53,7 +53,7 @@ export default function Blog() {
               <BlogBox
                 title="Viagem a Vegas!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="vegas"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -62,7 +62,7 @@ export default function Blog() {
               <BlogBox
                 title="Origem da KG esportes!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="Origem"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -71,7 +71,7 @@ export default function Blog() {
               <BlogBox
                 title="Valores!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
+                tag="Valores"
                 author="Luke Skywalker, 2 days ago"
                 action={() => alert("clicked")}
               />
@@ -79,7 +79,7 @@ export default function Blog() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
+              <FullButton title="Saiba mais" action={() => alert("clicked")} />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function Blog() {
       <div className="lightBg" style={{padding: '50px 0'}}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">What They Say?</h1>
+            <h1 className="font40 extraBold">O que nossos clientes acham?</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
