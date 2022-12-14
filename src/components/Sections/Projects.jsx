@@ -9,7 +9,6 @@ import ProjectImg2 from "../../assets/img/projects/2.png";
 import ProjectImg3 from "../../assets/img/projects/3.png";
 import ProjectImg4 from "../../assets/img/projects/4.png";
 import ProjectImg5 from "../../assets/img/projects/5.png";
-import ProjectImg6 from "../../assets/img/projects/6.png";
 import AddImage2 from "../../assets/img/add/add2.png";
 
 export default function Projects() {
@@ -37,7 +36,7 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg2}
-                title="Wagner pereira"
+                title="Fábio Pereira cruz"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
@@ -55,7 +54,7 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
-                title="Pedro carvalho"
+                title="Fábio Miguel Monteiro"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
@@ -64,14 +63,6 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg5}
                 title="Vanessa ferraz"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg6}
-                title="Breno costa"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
