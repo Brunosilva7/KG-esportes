@@ -60,7 +60,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Projetos
+            Equipe
           </Link>
         </li>
         <li className="semiBold font15 pointer">
