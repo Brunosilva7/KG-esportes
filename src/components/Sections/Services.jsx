@@ -28,18 +28,18 @@ export default function Services() {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
-            <ServiceBoxWrapper>
+          <ServiceBoxRow className="flex flexCenter" >
+            <ServiceBoxWrapper >
               <ServiceBox
-                icon="roller"
-                title="Ginástica artística infantil"
+                icon="browser"
+                title="Ginástica artística (3 - 5) anos."
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
               />
             </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
+            <ServiceBoxWrapper >
               <ServiceBox
-                icon="monitor"
-                title="Ginástica artística adolescente"
+                icon="browser"
+                title="Ginástica artística criança"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
               />
             </ServiceBoxWrapper>
@@ -49,9 +49,6 @@ export default function Services() {
                 title="Ginástica artística adulto"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
               />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Pacote completo." subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>

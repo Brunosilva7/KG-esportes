@@ -7,6 +7,7 @@ import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
+// import KGlogo from "../../assets/img/logoKG.png";
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
@@ -28,8 +29,9 @@ export default function TopNavbar() {
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
+            {/* <img style={{marginTop: '30px'}}src={KGlogo} alt="logo"/> */}
             <LogoIcon />
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+            <h1 style={{ marginLeft: "15px", borderRadius: '15px' }} className="font20 extraBold">
               KG esportes
             </h1>
           </Link>

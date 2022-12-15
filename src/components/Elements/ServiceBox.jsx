@@ -23,7 +23,7 @@ export default function ServiceBox({icon, title, subtitle}) {
       getIcon = <PrinterIcon />;
       break;
     default:
-      getIcon = <RollerIcon />;
+      getIcon = <BrowserIcon />;
       break;
   }
 

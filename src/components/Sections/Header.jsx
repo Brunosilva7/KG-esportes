@@ -17,7 +17,10 @@ export default function Header() {
             Academia especializada em Ginástica Artística localizada na cidade de Vinhedo - São Paulo, com foco na preparação de atletas de todas as idades e públicos.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Faça parte" />
+          <HeaderP style={{marginBottom: '-20px', textAlign: 'center'}} className="font20 extraBold">
+            Faça uma aula experimental
+          </HeaderP>
+            <FullButton title="Agendar" />
           </BtnWrapper>
         </div>
       </LeftSide>

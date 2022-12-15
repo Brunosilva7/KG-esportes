@@ -17,34 +17,18 @@ export default function Pricing() {
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
-            <TableBox>
-              <PricingTable
-                icon="roller"
-                price="$29,99/mo"
-                title="Básico"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
-              />
-            </TableBox>
+
             <TableBox>
               <PricingTable
                 icon="monitor"
-                price="$49,99/mo"
-                title="Intermediário"
+                price="R$214,90/mo"
+                title="Básico"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
+                  { name: "1x na semana com horário", cheked: true },
+                  { name: "1 hr de aula", cheked: true },
+                  { name: "Aos sábados", cheked: true },
+                  { name: "+ taxa de matricula", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -52,15 +36,15 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="browser"
-                price="$59,99/mo"
+                price="R$275,90/mo"
                 title="Completo"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
+                  { name: "2x na semana", cheked: true },
+                  { name: "1 hr de aula", cheked: true },
+                  { name: "Dias da semana", cheked: true },
+                  { name: "Aula adulto no sábado", cheked: true },
+                  { name: "+ Taxa de matricula", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
