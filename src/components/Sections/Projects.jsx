@@ -29,7 +29,7 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg1}
                 title="Juliana Cruz"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="Ex-atleta de ginastica artística, foi dos seus 4 aos 17 anos competindo e defendendo as cidades de Jundiaí, Vinhedo e Louveira."
                 action={() => alert("clicked")}
               />
             </div>
@@ -37,7 +37,7 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg2}
                 title="Fábio Pereira cruz"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="Graduação plena em educação física, ex atleta de ginástica artística. Árbitro da modalidade. Fundador e proprietário da Academia KG ESPORTE. Professor/técnico a 23 anos."
                 action={() => alert("clicked")}
               />
             </div>
@@ -45,25 +45,27 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg3}
                 title="Caio melo"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="Ex-atleta de Ginastica Artística onde por nove anos, defendeu a trouxe diversos títulos para a cidade de Vinhedo. Hoje graduado em Educação Física, especializado e árbitro da modalidade"
                 action={() => alert("clicked")}
               />
             </div>
           </div>
-          <div className="row textCenter">
+          <div className="row flexCenter textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
                 title="Fábio Miguel Monteiro"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="Graduação plena em educação física. Fundador e proprietário das páginas @movimento.freestyle."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
-                title="Vanessa ferraz"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Luana Cruz"
+                text="Professora de Educação Física Bilíngue,
+                Personal Trainer Adultos e Crianças.
+                Coach Ginástica Artística na KG Esportes"
                 action={() => alert("clicked")}
               />
             </div>
@@ -86,15 +88,15 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">Um pouco sobre nós</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h4 className="font15 semiBold">Um pouco sobre </h4>
+              <h2 className="font40 extraBold">Nossa especialidade.</h2>
               <p className="font12">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                 diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Comece agora" action={() => alert("clicked")} />
+                  <FullButton title="Saiba mais" action={() => alert("clicked")} />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
                   <FullButton title="Contato" action={() => alert("clicked")} border />
